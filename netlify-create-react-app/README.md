@@ -20,14 +20,14 @@ Today's lesson will be a walk-through on how to get a Create-React App deployed 
   - Add a `.gitignore`
   - choose a license
 
-    ![GitHub new repository options](../assets/github-new-repo-options.png)
+    ![GitHub new repository options](./assets/github-new-repo-options.png)
 
 - Return to your create-react-app:
   - `git add .`
   - `git commit -m 'first commit'`
 - Follow the commands listed in GitHub to push an existing repository to GitHub
 
-![GitHub new repo from existing project](../assets/github-new-repo-from-existing-project.png)
+![GitHub new repo from existing project](./assets/github-new-repo-from-existing-project.png)
 
 > **Note:** If you do not have the above view for a new GitHub repository, the easiest thing is to delete it and start again. If you see a different view it is likely you selected some options from the previous menu.
 
@@ -43,51 +43,51 @@ Today's lesson will be a walk-through on how to get a Create-React App deployed 
 
 Log on to (or create an account on) Netlify, go to `Team Overview`, and select `New site from Git`.
 
-![Team overview](../assets/1.team-overview.png)
+![Team overview](./assets/1.team-overview.png)
 
 Choose the `GitHub` button - this will take you to a GitHub authentication view.
 
-![Create new site](../assets/2.create-new-site.png)
+![Create new site](./assets/2.create-new-site.png)
 
 Scroll down and select `Configure the Netlify app on GitHub`.
 
-![Github Netlify Configuration](../assets/3.github-netlify-config.png)
+![Github Netlify Configuration](./assets/3.github-netlify-config.png)
 
 Choose configure to install Netlify on your GitHub account.
 
-![Install Netlify on GitHub](../assets/4.install-netlify-on-github.png)
+![Install Netlify on GitHub](./assets/4.install-netlify-on-github.png)
 
 Be sure to remember your GitHub password to move forward.
 
-![Log in to GitHub](../assets/5.log-in-to-github.png)
+![Log in to GitHub](./assets/5.log-in-to-github.png)
 
 Choose which repo. Use the search bar feature if needed.
 
-![Select repositories](../assets/6.select-repos.png)
+![Select repositories](./assets/6.select-repos.png)
 
 Once selected, your view should return to the Netlify dashboard.
 
-![Choose repository on Netlify](../assets/7.choose-repo-on-netlify.png)
+![Choose repository on Netlify](./assets/7.choose-repo-on-netlify.png)
 
 Keep the default settings provided and choose the `Deploy site` button.
 
-![Create configuration for deploy site](../assets/8.create-configure.png)
+![Create configuration for deploy site](./assets/8.create-configure.png)
 
 See the status of your deployment. Click on it to see more details.
 
-![Status of deployment](../assets/9.see-status.png)
+![Status of deployment](./assets/9.see-status.png)
 
 Check the logs. It is good to get familiar with what is there. When errors occur with the build, this is where you would go to learn what to debug.
 
-![Netlify logs](../assets/10.check-logs.png)
+![Netlify logs](./assets/10.check-logs.png)
 
 Check for the line `Site is live ✨` to confirm your site is live.
 
-![Site is live message](../assets/11.site-is-live.png)
+![Site is live message](./assets/11.site-is-live.png)
 
 Go to the `Deploys` tab, and click on the link to see your site live. You can also share this link with your friends and family!
 
-![Deploys view](../assets/12.deploys-view.png)
+![Deploys view](./assets/12.deploys-view.png)
 
 While adding to your app, you should work on another branch like `dev` and only merge into `main` when your new features are working.
 
@@ -146,11 +146,11 @@ console.log(`${process.env.REACT_APP_API_KEY}`);
 
 Choose `site settings`, then in the `General` menu, find `Build and deploy`, then choose `Environment`.
 
-![General menu](../assets/general-menu.png)
+![General menu](./assets/general-menu.png)
 
 Add, edit and delete environmental variables here.
 
-![Environmental variables](../assets/netlify-environmental-variables.png)
+![Environmental variables](./assets/netlify-environmental-variables.png)
 
 The name of these variables should match what is in your app.
 
