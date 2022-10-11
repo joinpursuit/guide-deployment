@@ -18,7 +18,7 @@ Finally, your apps will "go to sleep" when they are not actively used. So when y
 
 ## Start with the template repository
 
-Select `use this template` from the [Pern final project template](https://github.com/joinpursuit/pern-final-project-template) on GitHub to get started on your new project. You should be putting this template in your personal GitHub account and not in an organization. The repository should be public. This repository has the correct file structure and configurations to deploy the application to Render as is.
+Select `use this template` from the [Pern final project template](https://github.com/joinpursuit/template-pern-project) on GitHub to get started on your new project. You should be putting this template in your personal GitHub account and not in an organization. The repository should be public. This repository has the correct file structure and configurations to deploy the application to Render as is.
 
 Get this app to run locally to test that it works. If it does not work locally, it will not work online. Follow the instructions in the application's `README.md` file.
 
